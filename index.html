@@ -1,11 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Калкулатор за квасен хляб</title>
+
+    <!-- Google Fonts stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Own stylesheet -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Welcome</h1>
+    <header>
+      <h1>Калкулатор за замесване на хляб с квас</h1>
+    </header>
+
+    <main>
+      <!-- <div class="msg">
+        <h3 class="warning">Page under construction</h3>
+      </div> -->
+
+      <section class="info">
+        Първоначално калкулаторът е замислен за лична употреба.<br />
+        Тази страница е опит той да бъде споделен с по-широк кръг хора (в
+        случай, че би бил от полза за някого).
+      </section>
+
+      <section>
+        <article class="card">
+          <div class="grid">
+            <p class="col-1">Версия:</p>
+            <p class="col-2">2.4</p>
+            <p class="col-1">Формат:</p>
+            <p class="col-2">Microsoft-Excel файл (.zip архивиран)</p>
+          </div>
+
+          <p class="cta">
+            <a
+              class="btn bread-link"
+              href="downloads/Sourdogh-calculator-bg-Ver.2.4.zip"
+              >Изтегли</a
+            >
+          </p>
+        </article>
+      </section>
+
+      <section class="additional-info">
+        <h3>Пояснения:</h3>
+        <ul>
+          <li>
+            Файлът е създаден с помощта на версията на Microsoft-Excel за
+            настолен/преносим компютър.
+          </li>
+          <li>
+            Ако файлът се използва с някоя друга програма за електронни таблици
+            или с мобилната версия на Microsoft-Excel, то е вероятно обликът на
+            таблиците в него и/или някоя от функционалностите им да бъдат
+            нарушени.
+          </li>
+          <li>
+            Ако се използва на смарт-телефон, то е препоръчително файлът да бъде
+            отварян с мобилната версия на Microsoft-Excel (която има и безплатен
+            вариант).
+          </li>
+          <li>
+            Въведените стойности имат за цел да послужат единствено за пример.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a
+          class="github"
+          href="https://github.com/nstratiev/bread"
+          target="_blank"
+          >GitHub</a
+        >
+        |
+        <a class="email">n.stratiev@gmail.com</a>
+      </p>
+    </footer>
+
+    <script>
+      window.location.replace(
+        'https://nstratiev.github.io/bread-calculator-bg'
+      );
+    </script>
   </body>
 </html>
