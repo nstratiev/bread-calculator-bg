@@ -33,6 +33,11 @@ h3 {
   padding: 10px 10px 10px 20px;
 }
 
+h4 {
+  text-align: center;
+  margin-top: 25px;
+}
+
 /* .card-title {
   color: #495057;
   text-align: center;
@@ -55,7 +60,7 @@ h3 {
   column-gap: 10px;
   row-gap: 10px;
   justify-content: left;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px;
 }
