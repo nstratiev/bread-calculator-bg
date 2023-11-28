@@ -1,0 +1,57 @@
+/* ##### Links ##### */
+.bread-link:link,
+.bread-link:visited {
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  border: 2px solid var(--blue-color);
+
+  background-color: var(--blue-color);
+  color: white;
+  text-decoration: none;
+}
+
+.bread-link:hover,
+.bread-link:active {
+  background-color: white;
+  color: var(--blue-color);
+  font-weight: bold;
+}
+
+/* GitHub link */
+.github:link,
+.github:visited,
+.email:link,
+.email:visited {
+  padding: 5px;
+}
+
+.github:link,
+.github:visited {
+  color: var(--black-color);
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.github:hover,
+.github:active {
+  text-decoration: none;
+}
+
+/* Email link */
+.email:link,
+.email:visited {
+  color: var(--black-color);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.email:hover,
+.email:active {
+  text-decoration: none;
+  cursor: auto;
+  color: var(--blue-color);
+}

@@ -1,5 +1,5 @@
 :root {
-  --blue-color: rgb(46, 59, 121);
+  --blue-color: rgb(49, 63, 135);
   --green-color: rgb(43, 136, 61);
   --red-color: rgb(192, 0, 0);
   --grey-bg-color: rgb(250, 250, 250);
@@ -67,10 +67,14 @@ h4 {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   column-gap: 10px;
-  row-gap: 10px;
   width: fit-content;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.cell._A,
+.cell._B {
+  padding: 5px 0;
 }
 
 .cell._A {
@@ -98,7 +102,7 @@ h4 {
 }
 
 .additional-info {
-  margin: 0 60px;
+  margin: 0 60px 40px;
 }
 
 .additional-info ul {
@@ -107,97 +111,19 @@ h4 {
 
 .additional-info li {
   line-height: 1.4;
-  margin-bottom: 5px;
 }
 
-/* ************** */
-/* Button - link */
-p.cta {
+div.cta {
   margin-bottom: 20px;
-}
-
-/* ****************** */
-/* ##### Links ##### */
-.bread-link:link,
-.bread-link:visited {
-  border-radius: 5px;
-  display: block;
-  text-align: center;
-  width: 180px;
-  margin: 0 auto;
-  padding: 5px 15px;
-  border: 2px solid var(--blue-color);
-
-  background-color: var(--blue-color);
-  color: white;
-  text-decoration: none;
-}
-
-.bread-link:hover,
-.bread-link:active {
-  background-color: white;
-  color: var(--blue-color);
-  font-weight: bold;
-}
-
-/* GitHub link */
-.github:link,
-.github:visited {
-  color: var(--black-color);
-  text-decoration: underline;
-  display: inline-block;
-  padding: 10px;
-}
-
-.github:hover,
-.github:active {
-  text-decoration: none;
-}
-
-/* Email link */
-.email:link,
-.email:visited {
-  color: var(--black-color);
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-}
-
-.email:hover,
-.email:active {
-  text-decoration: none;
-  cursor: auto;
-  color: var(--blue-color);
 }
 
 footer {
   background-color: var(--grey-bg-color);
-  height: 50px;
+  padding: 10px 0;
   display: flex;
   align-items: center;
 }
 
 footer p {
   margin-left: 50px;
-}
-
-/* ##### Media Queries ##### */
-@media (max-width: 800px) {
-  .additional-info {
-    margin: 0 30px;
-  }
-
-  footer p {
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 600px) {
-  footer {
-    justify-content: center;
-  }
-
-  footer p {
-    margin-left: 0;
-  }
 }

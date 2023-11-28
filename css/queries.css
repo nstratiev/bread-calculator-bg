@@ -1,0 +1,38 @@
+/* ##### Media Queries ##### */
+@media (max-width: 800px) {
+  .additional-info {
+    margin: 0 30px 40px;
+  }
+
+  footer p {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    justify-content: center;
+  }
+
+  footer p {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  footer {
+    text-align: center;
+  }
+
+  .github:link,
+  .github:visited,
+  .email:link,
+  .email:visited {
+    padding: 4px 10px;
+    display: block;
+  }
+
+  .divider {
+    display: none;
+  }
+}
