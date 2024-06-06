@@ -8,8 +8,8 @@ btnToTop.addEventListener('click', goToScreenTop);
 // --- Screen scroll functions
 function onScreenScroll() {
   if (
-    document.body.scrollTop > 120 ||
-    document.documentElement.scrollTop > 120
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
   ) {
     btnToTop.style.display = 'block';
   } else {
