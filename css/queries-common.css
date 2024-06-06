@@ -1,0 +1,93 @@
+/* ##### QUERIES ##### */
+/* Queries points >>> 1200px / 1000px / 680px / 370px / 350px / 308px / 300px */
+
+@media (max-width: 1200px) {
+  #btn-to-top,
+  #btn-reset-global,
+  #btn-save-global {
+    right: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-column:nth-of-type(1) {
+    border-bottom: 1px solid var(--grey-bg);
+  }
+
+  .page-column:nth-of-type(2) {
+    border-right: none;
+    border-bottom: 1px solid var(--grey-bg);
+  }
+
+  .page-column:last-child {
+    border-right: 1px solid var(--grey-bg);
+  }
+
+  .comment-box {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 680px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .page-column {
+    border: none;
+    border-bottom: 1px solid var(--grey-bg) !important;
+  }
+
+  .page-column:nth-of-type(1) {
+    padding-bottom: 0;
+  }
+
+  .page-column:nth-of-type(2) {
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
+
+  .page-column:last-child {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  hr {
+    margin-top: 15px;
+  }
+
+  .legend-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 370px) {
+  .legend-card {
+    width: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-body {
+    padding: 16px;
+  }
+
+  /* DASHED BORDERS */
+  .right-dashed {
+    border-left: 2px dashed black;
+  }
+
+  .top-dashed {
+    border-top: 1px solid black;
+    border-left: 2px dashed black;
+  }
+}
