@@ -1,0 +1,27 @@
+.main-nav {
+  /* background-color: var(--black-color-2); */
+  background-color: rgb(80, 80, 80);
+}
+
+.main-nav > ul > li {
+  display: inline-block;
+  margin: 0;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  color: white;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  background-color: var(--grey-bg-color);
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-decoration: none;
+}

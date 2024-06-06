@@ -1,5 +1,9 @@
 /* ##### Media Queries ##### */
 @media (max-width: 800px) {
+  .main-nav > ul {
+    text-align: center;
+  }
+
   .additional-info {
     margin: 0 30px 40px;
   }
