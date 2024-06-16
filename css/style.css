@@ -25,14 +25,24 @@ body {
 }
 
 header {
-  background-color: var(--grey-bg-color);
   padding: 20px;
   text-align: center;
   margin-bottom: 40px;
 }
 
+#main-header {
+  background-color: var(--grey-bg-color);
+}
+
 h1 {
   font-size: 24px;
+}
+
+summary {
+  font-size: 18px;
+  padding: 10px 10px 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 h3 {
@@ -48,6 +58,11 @@ h4 {
 h5 {
   text-align: center;
   margin-top: 10px;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .cards-container {
@@ -105,8 +120,8 @@ h5 {
 
 .info {
   text-align: center;
-  padding: 10px;
-  margin-bottom: 40px;
+  /* padding: 10px; */
+  margin-bottom: 20px;
   line-height: 1.4;
 }
 
