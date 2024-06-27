@@ -40,7 +40,7 @@ h1 {
 
 summary {
   font-size: 18px;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 20px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -127,20 +127,13 @@ hr {
   visibility: hidden;
 }
 
-/* _double-height {
-  height: 100%;
-} */
-
-.info {
-  text-align: center;
-  /* padding: 10px; */
-  /* margin-bottom: 20px; */
-  line-height: 1.4;
-}
-
 .additional-info {
   margin: 0 60px;
   padding-bottom: 20px;
+}
+
+div.info {
+  line-height: 1.4;
 }
 
 .additional-info ul {
@@ -149,6 +142,7 @@ hr {
 
 .additional-info li {
   line-height: 1.4;
+  max-width: 80ch;
 }
 
 div.cta {
