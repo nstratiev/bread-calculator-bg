@@ -160,3 +160,29 @@ footer {
 footer p {
   margin-left: 50px;
 }
+
+article.example-recipes {
+  margin: 0 10px 40px 10px;
+  text-align: center;
+}
+
+article.example-recipes h4 {
+  margin-bottom: 10px;
+}
+
+article.example-recipes ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-bottom: 20px;
+}
+
+a.example-recipes:link,
+a.example-recipes:visited {
+  color: rgb(49, 63, 135);
+  text-decoration: none;
+}
+
+a.example-recipes:hover,
+a.example-recipes:active {
+  text-decoration: underline;
+}
