@@ -44,21 +44,23 @@
 
 /* GitHub link */
 .github:link,
-.github:visited,
 .email:link,
-.email:visited {
+.favicon-link {
   padding: 5px;
 }
 
 .github:link,
-.github:visited {
+.github:visited,
+.favicon-link:link,
+.favicon-link:visited {
   color: var(--black-color);
-  text-decoration: underline;
   display: inline-block;
 }
 
 .github:hover,
-.github:active {
+.github:active,
+.favicon-link:hover,
+.favicon-link:active {
   text-decoration: none;
 }
 
@@ -75,4 +77,12 @@
   text-decoration: none;
   cursor: auto;
   color: var(--blue-color);
+}
+
+/* Favicon link */
+.favicon-link:link,
+.favicon-link:visited {
+  text-decoration: none;
+  font-size: 80%;
+  font-style: italic;
 }
