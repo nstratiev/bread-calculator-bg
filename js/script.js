@@ -28,7 +28,20 @@ function goToScreenTop() {
 // Local Storage functions
 
 function setInitialLocalStorage() {
-  localStorage.setItem('sourdoughCalculators', JSON.stringify({}));
-  localStorage.setItem('yeastCalculators', JSON.stringify({}));
-  localStorage.setItem('banicaCalculators', JSON.stringify({}));
+  const sourdoughStorage = localStorage.getItem('sourdoughCalculators');
+  const yeastStorage = localStorage.getItem('yeastCalculators');
+  const banicaStorage = localStorage.getItem('banicaCalculators');
+
+  if (sourdoughStorage === null) {
+    localStorage.setItem('sourdoughCalculators', JSON.stringify({}));
+  }
+
+  if (yeastStorage === null) {
+    localStorage.setItem('yeastCalculators', JSON.stringify({}));
+  }
+
+  if (banicaStorage === null) {
+    localStorage.setItem('banicaCalculators', JSON.stringify({}));
+  }
+
 }
