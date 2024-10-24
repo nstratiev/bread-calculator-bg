@@ -86,3 +86,19 @@
   font-size: 80%;
   font-style: italic;
 }
+
+/* Common links */
+a.example-recipes:link,
+a.example-recipes:visited,
+a.helpful-links:link,
+a.helpful-links:visited {
+  color: rgb(49, 63, 135);
+  text-decoration: none;
+}
+
+a.example-recipes:hover,
+a.example-recipes:active,
+a.helpful-links:hover,
+a.helpful-links:active {
+  text-decoration: underline;
+}

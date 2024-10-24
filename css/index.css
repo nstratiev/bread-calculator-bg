@@ -30,6 +30,10 @@ header {
   margin-bottom: 40px;
 }
 
+#helpful-links {
+  margin-bottom: 0;
+}
+
 #main-header {
   background-color: var(--grey-bg-color);
 }
@@ -173,13 +177,6 @@ article.example-recipes ul {
   padding-bottom: 20px;
 }
 
-a.example-recipes:link,
-a.example-recipes:visited {
-  color: rgb(49, 63, 135);
-  text-decoration: none;
-}
-
-a.example-recipes:hover,
-a.example-recipes:active {
-  text-decoration: underline;
+li.example-recipes {
+  margin-bottom: 4px;
 }
