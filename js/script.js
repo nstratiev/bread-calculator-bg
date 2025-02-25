@@ -22,6 +22,7 @@ function goToScreenTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 
-  window.history.pushState({}, '', '/bread-calculator-bg/');
+  window.location.hash = '';
+  // window.history.pushState({}, '', '/bread-calculator-bg/');
 
 }
