@@ -90,15 +90,15 @@
 /* Common links */
 a.example-recipes:link,
 a.example-recipes:visited,
-a.helpful-links:link,
-a.helpful-links:visited {
+a.useful-links:link,
+a.useful-links:visited {
   color: rgb(49, 63, 135);
   text-decoration: none;
 }
 
 a.example-recipes:hover,
 a.example-recipes:active,
-a.helpful-links:hover,
-a.helpful-links:active {
+a.useful-links:hover,
+a.useful-links:active {
   text-decoration: underline;
 }
