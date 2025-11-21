@@ -1,1 +1,1 @@
-# Calculators for kneading bread
+# Calculators for kneading bread and other types of dough
