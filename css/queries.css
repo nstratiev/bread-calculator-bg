@@ -8,25 +8,11 @@
     margin: 0 30px 40px;
   }
 
-  footer p {
-    margin-left: 20px;
-  }
 }
 
-@media (max-width: 600px) {
-  footer {
-    justify-content: center;
-  }
-
-  footer p {
-    margin-left: 0;
-  }
-}
+@media (max-width: 600px) {}
 
 @media (max-width: 300px) {
-  footer {
-    text-align: center;
-  }
 
   .github:link,
   .github:visited,

@@ -2,7 +2,8 @@
 /* Queries points >>> 1200px / 1000px / 680px / 370px / 350px / 308px / 300px */
 
 @media (max-width: 1200px) {
-  #btn-to-top,
+
+  /* #btn-to-top, */
   #btn-reset-global,
   #btn-save-global {
     right: 5px;
@@ -54,10 +55,6 @@
   .page-column:last-child {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  hr {
-    /* margin-top: 15px; */
   }
 
   .legend-card {

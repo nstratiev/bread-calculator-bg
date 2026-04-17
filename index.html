@@ -29,10 +29,11 @@
   <script>0</script>
   <nav class="main-nav">
     <ul>
-      <li><a href="#sourdough" class="main-nav-link">Квас</a></li>
-      <li><a href="#yeast" class="main-nav-link">Мая</a></li>
+      <li><a href="#sourdough" class="main-nav-link">Хляб с квас</a></li>
+      <li><a href="#yeast" class="main-nav-link">Хляб с мая</a></li>
       <li><a href="#banitsa" class="main-nav-link">Баница</a></li>
       <li><a href="#pizza" class="main-nav-link">Пица</a></li>
+      <li><a href="#kozunak" class="main-nav-link">Козунак</a></li>
       <li><a href="#recipe-form" class="main-nav-link">Рецептурна бланка</a></li>
       <li><a href="./useful-links" class="main-nav-link">Полезни връзки</a></li>
     </ul>
@@ -131,6 +132,10 @@
           </div>
         </article>
 
+      </div>
+
+      <div class="cards-container">
+
         <!-- Sourdough ONLINE -->
         <article class="card -online">
           <h4>Хляб с квас</h4>
@@ -218,7 +223,7 @@
         </article>
 
         <!-- OFFLINE -->
-        <article class="card -online">
+        <article class="card -online" style="display: none;">
           <h4>Кори за баница</h4>
           <h5>OFFLINE</h5>
 
@@ -237,7 +242,11 @@
           </div>
         </article>
 
-        <!-- Banica EXCEL DESKTOP -->
+      </div>
+
+      <div class="cards-container">
+
+        <!-- Banitsa EXCEL DESKTOP -->
         <article class="card -excel">
           <h4>Кори за баница</h4>
           <h5>Excel-DESKTOP</h5>
@@ -257,7 +266,8 @@
           </div>
         </article>
 
-        <!-- Banica EXCEL MOBILE -->
+
+        <!-- Banitsa EXCEL MOBILE -->
         <article class="card -excel" style="display: none;">
           <h4>Кори за баница</h4>
           <h5>Excel-MOBILE</h5>
@@ -285,7 +295,7 @@
 
     <section>
       <header id="pizza">
-        <h2>Калкулатор за замесване<br />на тесто за пица</h2>
+        <h2>Калкулатор за замесване<br />на тесто за пица<br>(с мая)</h2>
       </header>
 
       <div class="cards-container">
@@ -330,6 +340,59 @@
           </div>
         </article>
 
+      </div>
+
+    </section>
+
+    <hr>
+
+    <section>
+      <header id="kozunak">
+        <h2>Калкулатори за замесване<br />на козунак</h2>
+      </header>
+
+      <div class="cards-container">
+
+        <!-- Kozunak-yeast DESKTOP -->
+        <article class="card -excel">
+          <h4>Козунак с МАЯ</h4>
+          <h5>Excel-DESKTOP</h5>
+
+          <div class="grid-container">
+            <div class="grid-item">
+              <p class="cell _A">Версия:</p>
+              <p class="cell _B">2.8</p>
+              <p class="cell _A">Формат:</p>
+              <p class="cell _B">Microsoft-Excel файл <br />(.zip архивиран)</p>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="bread-link -excel" href="downloads/Kozunak/Kozunak-yeast-Desktop-Ver.2.8.zip">Изтегляне</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="cards-container">
+
+        <!-- Kozunak-sourdough DESKTOP -->
+        <article class="card -excel">
+          <h4>Козунак с КВАС</h4>
+          <h5>Excel-DESKTOP</h5>
+
+          <div class="grid-container">
+            <div class="grid-item">
+              <p class="cell _A">Версия:</p>
+              <p class="cell _B">1.8</p>
+              <p class="cell _A">Формат:</p>
+              <p class="cell _B">Microsoft-Excel файл <br />(.zip архивиран)</p>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="bread-link -excel" href="downloads/Kozunak/Kozunak-sourdough-Desktop-Ver.1.8.zip">Изтегляне</a>
+          </div>
+        </article>
       </div>
 
     </section>
@@ -385,10 +448,10 @@
                 href="downloads/RecipeForm/recipes/Италианска паста-ТЕСТО-Ver.0.5.zip">Италианска
                 паста (ТЕСТО) - Ver.0.5</a>
             </li>
-            <li class="example-recipes">
+            <!-- <li class="example-recipes">
               <a class="example-recipes" href="downloads/RecipeForm/recipes/Козунак-2025г-Ver.2.0.zip">Козунак (2025г.)
                 - Ver.2.0</a>
-            </li>
+            </li> -->
           </ul>
         </article>
 
@@ -404,7 +467,10 @@
   <footer>
     <p>
       <a class="github" href="https://github.com/nstratiev/bread-calculator-bg/" target="_blank">GitHub</a>
-      <span class="divider">|</span>
+      <!-- <span class="divider">|</span> -->
+    </p>
+
+    <p>
       <a class="email">n.stratiev@gmail.com</a>
     </p>
 
