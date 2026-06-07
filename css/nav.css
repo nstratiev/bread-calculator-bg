@@ -35,12 +35,21 @@
   background-color: green;
 }
 
-.main-nav-link:hover,
 .main-nav-link:active,
-.nav-to-root-page:hover,
 .nav-to-root-page:active {
   background-color: var(--grey-bg-color);
   color: rgb(80, 80, 80);
   font-weight: bold;
   text-decoration: none;
+}
+
+@media (hover: hover) {
+
+  .main-nav-link:hover,
+  .nav-to-root-page:hover {
+    background-color: var(--grey-bg-color);
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-decoration: none;
+  }
 }

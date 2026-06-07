@@ -30,6 +30,7 @@
 
 /* Queries */
 @media (hover: hover) {
+
   .btn-submit:hover,
   .btn-reset:hover,
   .btn-save:hover {
@@ -38,14 +39,13 @@
   }
 }
 
-@media (hover: none) {
-  .btn-submit:active,
-  .btn-reset:active,
-  .btn-save:active {
-    border-width: 2px;
-    background-color: white;
-  }
+.btn-submit:active,
+.btn-reset:active,
+.btn-save:active {
+  border-width: 2px;
+  background-color: white;
 }
+
 /* PAGE BUTTONS GROUP [End] */
 
 /* GLOBAL BUTTONS [Start] */
@@ -110,6 +110,7 @@
 }
 
 @media (hover: hover) {
+
   .btn-to-top:hover,
   .btn-reset-global:hover,
   .btn-save-global:hover {
@@ -124,18 +125,17 @@
   }
 }
 
-@media (hover: none) {
-  .btn-to-top:active,
-  .btn-reset-global:active,
-  .btn-save-global:active {
-    border: 2px solid rgba(128, 128, 128, 0.8);
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-
-  .btn-to-top:active svg,
-  .btn-reset-global:active svg,
-  .btn-save-global:active svg {
-    color: rgb(128, 128, 128);
-  }
+.btn-to-top:active,
+.btn-reset-global:active,
+.btn-save-global:active {
+  border: 2px solid rgba(128, 128, 128, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
+
+.btn-to-top:active svg,
+.btn-reset-global:active svg,
+.btn-save-global:active svg {
+  color: rgb(128, 128, 128);
+}
+
 /* GLOBAL BUTTONS [End] */

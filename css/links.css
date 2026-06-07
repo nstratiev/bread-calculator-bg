@@ -13,9 +13,14 @@
   text-decoration: none;
 }
 
-.bread-link:hover,
 .bread-link:active {
   font-weight: bold;
+}
+
+@media (hover: hover) {
+  .bread-link:hover {
+    font-weight: bold;
+  }
 }
 
 .bread-link.-online:link,
@@ -30,17 +35,30 @@
   background-color: var(--blue-color);
 }
 
-.bread-link.-online:hover,
 .bread-link.-online:active {
   background-color: white;
   color: var(--green-color);
 }
 
-.bread-link.-excel:hover,
+@media (hover: hover) {
+  .bread-link.-online:hover {
+    background-color: white;
+    color: var(--green-color);
+  }
+}
+
 .bread-link.-excel:active {
   background-color: white;
   color: var(--blue-color);
 }
+
+@media (hover: hover) {
+  .bread-link.-excel:hover {
+    background-color: white;
+    color: var(--blue-color);
+  }
+}
+
 
 /* GitHub link */
 .github:link,
@@ -57,11 +75,17 @@
   display: inline-block;
 }
 
-.github:hover,
 .github:active,
-.favicon-link:hover,
 .favicon-link:active {
   text-decoration: none;
+}
+
+@media (hover: hover) {
+
+  .github:hover,
+  .favicon-link:hover {
+    text-decoration: none;
+  }
 }
 
 /* Email link */
@@ -72,11 +96,18 @@
   display: inline-block;
 }
 
-.email:hover,
 .email:active {
   text-decoration: none;
   cursor: auto;
   color: var(--blue-color);
+}
+
+@media (hover: hover) {
+  .email:hover {
+    text-decoration: none;
+    cursor: auto;
+    color: var(--blue-color);
+  }
 }
 
 /* Favicon link */
@@ -96,9 +127,15 @@ a.useful-links:visited {
   text-decoration: none;
 }
 
-a.example-recipes:hover,
 a.example-recipes:active,
-a.useful-links:hover,
 a.useful-links:active {
   text-decoration: underline;
+}
+
+@media (hover: hover) {
+
+  a.example-recipes:hover,
+  a.useful-links:hover {
+    text-decoration: underline;
+  }
 }
