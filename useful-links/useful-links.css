@@ -67,3 +67,8 @@ hr.end {
 footer {
   margin-top: 40px;
 }
+
+div.description {
+  font-style: italic;
+  font-size: 90%;
+}
